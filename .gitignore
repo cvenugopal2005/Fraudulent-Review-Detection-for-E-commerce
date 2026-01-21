@@ -1,14 +1,63 @@
 # Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
 *.pyc
 
-# Virtual environment
+# Virtual Environment
 venv/
-.env
+env/
+.venv/
+.env/
 
-# ML models & large files
-*.pkl
-*.index
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
-# OS files
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# System Files
 .DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Streamlit cache and session files
+.streamlit/
+.cache/
+*.db
+
+# Model weights / checkpoints
+*.h5
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+*.json
+tokenizer_config.json
+vocab.txt
+tokenizer.json
+
+# OS temporary files
+*.swp
+*.tmp
+*.bak
+
+# Python packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Misc
+*.DS_Store
+*.pytest_cache/
