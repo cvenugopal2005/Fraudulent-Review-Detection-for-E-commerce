@@ -1,0 +1,33 @@
+# ---------------------------
+# Core Python Libraries
+# ---------------------------
+python-dotenv==1.0.0          # For environment variables (if needed)
+requests==2.31.0              # HTTP requests for frontend <-> backend communication
+pandas==2.1.0                 # Data handling
+numpy==1.27.5                 # Numerical operations
+
+# ---------------------------
+# Backend - FastAPI
+# ---------------------------
+fastapi==0.109.2
+uvicorn[standard]==0.23.2
+
+# ---------------------------
+# Frontend - Streamlit
+# ---------------------------
+streamlit==1.27.1
+streamlit-option-menu==0.6.2  # Optional, if you use side menu enhancements
+
+# ---------------------------
+# Chatbot / NLP
+# ---------------------------
+transformers==4.35.0          # HuggingFace Transformers
+torch==2.1.0                  # PyTorch (CPU/GPU) for models
+sentence-transformers==2.2.2  # If using embeddings for RAG
+faiss-cpu==1.7.4              # Vector store (if using RAG embeddings)
+scikit-learn==1.3.1           # ML utilities
+
+# ---------------------------
+# Optional Utilities
+# ---------------------------
+tqdm==4.66.1                  # Progress bars for long operations
