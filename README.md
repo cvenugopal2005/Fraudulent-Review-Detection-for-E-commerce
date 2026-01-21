@@ -90,6 +90,3 @@ fraudulent-review-detection/
 └── README.md                  # Project documentation
 ```
 
-## 🎬 Demo Video
-
-Watch the full UI demonstration here: "https://drive.google.com/drive/folders/13aHffe-K4bOZxOmWEyKcAUNKNoSOhAom?usp=sharing"
